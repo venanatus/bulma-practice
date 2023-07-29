@@ -1,0 +1,42 @@
+.p1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: dashed 5px;
+    border-color: green ;
+
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.p2{
+     height: 200px;
+    width: 200px;
+    background-color: red;
+    border: dashed 5px;
+    border-color: purple;
+}
+p{
+    color: white;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+h1{
+    margin-left: 600px;
+    color: purple;
+}
+h1:hover{
+    color: red;
+    transition: 3s;
+
+}
+.p1:active{
+    height: 300px;
+    width: 300px;
+    transition: 5s;
+    background-color: white;
+}
+h1:active{
+    width: 10px;
+    height: 10px;
+}

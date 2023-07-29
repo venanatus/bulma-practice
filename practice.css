@@ -1,0 +1,11 @@
+hr{
+    width:48px;
+    height: 3px;
+    background-color: black;
+    margin:0px auto;
+}
+.p1:hover{
+    transform: translateX(-25px);
+    transition: 2s;
+}
+
